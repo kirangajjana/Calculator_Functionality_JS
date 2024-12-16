@@ -41,6 +41,7 @@ To run the application locally:
 
 ```bash
 git clone <repository-url>
+```
 
 
 
