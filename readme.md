@@ -41,3 +41,9 @@ To run the application locally:
 
 ```bash
 git clone <repository-url>
+
+
+
+## Demo
+
+You can view a live demo of this functionality [here](https://kirangajjana.github.io/Calculator_Functionality_JS/)
