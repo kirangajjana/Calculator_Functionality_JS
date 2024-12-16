@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    border:0;
+}
+#calculatormain{
+    height:600px;
+    width:500px;
+    border-style: groove;
+    border-color: black;
+    border-block-width: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+    display:flexbox;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:10%;
+}
+#inputtype{
+    height:50px;
+    width:400px;
+    margin:20px;
+    justify-content: center;
+}
+.buttons{
+    height:90px;
+    width:90px;
+    background-color: whitesmoke;
+    margin:10px;
+    align-items: center;
+}
