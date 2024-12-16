@@ -10,10 +10,9 @@
     <header>
         <div id="headerdiv">
             <div id="home">
-                <div id="homeinside"></div>
-            </div>
-            <div id="about">
-                <div id="aboutinside"></div>
+                <div id="homeinside">
+                    <p>Calculator Web Application</p>
+                </div>
             </div>
         </div>
     </header>
@@ -21,7 +20,10 @@
         <div id="calculatormain">
             <input type="text" id="inputtype" readonly>
             <div id="divbuttons">
-                <button class="buttons">c</button>
+                <button class="buttons" onclick="
+                    displaydata=''
+                    document.queryselector('#inputtype').value=displaydata;
+                    ">c</button>
                 <button class="buttons" onclick="
                 displaydata=displaydata+'1';
                 document.querySelector('#inputtype').value=displaydata;
@@ -71,8 +73,9 @@
                 document.querySelector('#inputtype').value=displaydata;
                  ">/</button>
                 <button class="buttons" onclick="
+                let result=eval(displaydata)
                 displaydata=displaydata+'=';
-                document.querySelector('#inputtype').value=displaydata;
+                document.querySelector('#inputtype').value=result;
                  ">=</button>
                 <button class="buttons" onclick="
                 displaydata=displaydata+'9';
@@ -86,7 +89,10 @@
         </div>
     </main>
     <footer>
+        <div id="border">
+            <marquee id="marquee">By Kiran gajjana@2024 Dec</marquee>
 
+        </div>
     </footer>
     <script src="script.js"></script>
 </body>
