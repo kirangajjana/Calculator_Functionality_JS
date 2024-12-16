@@ -20,6 +20,8 @@
     width:400px;
     margin:20px;
     justify-content: center;
+    font-weight: bolder;
+    font-size: large;
 }
 .buttons{
     height:90px;

@@ -22,26 +22,72 @@
             <input type="text" id="inputtype" readonly>
             <div id="divbuttons">
                 <button class="buttons">c</button>
-                <button class="buttons">1</button>
-                <button class="buttons">2</button>
-                <button class="buttons">+</button>
-                <button class="buttons">3</button>
-                <button class="buttons">4</button>
-                <button class="buttons">-</button>
-                <button class="buttons">5</button>
-                <button class="buttons">6</button>
-                <button class="buttons">*</button>
-                <button class="buttons">7</button>
-                <button class="buttons">8</button>
-                <button class="buttons">/</button>
-                <button class="buttons">=</button>
-                <button class="buttons">9</button>
-                <button class="buttons">0</button>
+                <button class="buttons" onclick="
+                displaydata=displaydata+'1';
+                document.querySelector('#inputtype').value=displaydata;
+                 ">1</button>
+                <button class="buttons" onclick="
+                displaydata=displaydata+'2';
+                document.querySelector('#inputtype').value=displaydata;
+                 ">2</button>
+                <button class="buttons" onclick="
+                displaydata=displaydata+'+';
+                document.querySelector('#inputtype').value=displaydata;
+                 ">+</button>
+                <button class="buttons" onclick="
+                displaydata=displaydata+'3';
+                document.querySelector('#inputtype').value=displaydata;
+                 ">3</button>
+                <button class="buttons" onclick="
+                displaydata=displaydata+'4';
+                document.querySelector('#inputtype').value=displaydata;
+                 ">4</button>
+                <button class="buttons" onclick="
+                displaydata=displaydata+'-';
+                document.querySelector('#inputtype').value=displaydata;
+                 ">-</button>
+                <button class="buttons" onclick="
+                displaydata=displaydata+'5';
+                document.querySelector('#inputtype').value=displaydata;
+                 ">5</button>
+                <button class="buttons" onclick="
+                displaydata=displaydata+'6';
+                document.querySelector('#inputtype').value=displaydata;
+                 ">6</button>
+                <button class="buttons" onclick="
+                displaydata=displaydata+'*';
+                document.querySelector('#inputtype').value=displaydata;
+                 ">*</button>
+                <button class="buttons" onclick="
+                displaydata=displaydata+'7';
+                document.querySelector('#inputtype').value=displaydata;
+                 ">7</button>
+                <button class="buttons" onclick="
+                displaydata=displaydata+'8';
+                document.querySelector('#inputtype').value=displaydata;
+                 ">8</button>
+                <button class="buttons" onclick="
+                displaydata=displaydata+'/';
+                document.querySelector('#inputtype').value=displaydata;
+                 ">/</button>
+                <button class="buttons" onclick="
+                displaydata=displaydata+'=';
+                document.querySelector('#inputtype').value=displaydata;
+                 ">=</button>
+                <button class="buttons" onclick="
+                displaydata=displaydata+'9';
+                document.querySelector('#inputtype').value=displaydata;
+                 ">9</button>
+                <button class="buttons" onclick="
+                displaydata=displaydata+'0';
+                document.querySelector('#inputtype').value=displaydata;
+                 ">0</button>
             </div>
         </div>
     </main>
     <footer>
 
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
